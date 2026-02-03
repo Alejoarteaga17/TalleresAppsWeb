@@ -2,15 +2,21 @@
 
 <html lang="es">
 
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library App</title>
-    <link href="/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Library App</title>
+
+<link href="/css/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
+
 
 <body class="bg-gray-100 min-h-screen">
 
@@ -30,25 +36,39 @@
 
 </div>
 
+
 <nav class="space-y-2">
 
 <a href="/" class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
-    <i class="fas fa-home mr-3"></i>
-    <span>Home</span>
+
+<i class="fas fa-home mr-3"></i>
+
+<span>Home</span>
 
 </a>
+
 <a href="/about" class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
-    <i class="fas fa-info-circle mr-3"></i>
-    <span>About</span>
+
+<i class="fas fa-info-circle mr-3"></i>
+
+<span>About</span>
+
 </a>
+
+</a>
+
 <a href="/contact" class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200">
-    <i class="fas fa-envelope mr-3"></i>
-    <span>Contact</span>
+
+<i class="fas fa-info-circle mr-3"></i>
+
+<span>Contact</span>
+
 </a>
 
 </nav>
 
 </div>
+
 
 <div class="w-full p-6 border-t border-gray-700 mt-auto">
 
@@ -73,6 +93,7 @@
 </div>
 
 </aside>
+
 
 <!-- main content area -->
 
@@ -113,3 +134,21 @@
 </div>
 
 </header>
+
+
+<!-- main content -->
+
+<main class="flex-1 overflow-y-auto p-6">
+
+<%- content %>
+
+</main>
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>
